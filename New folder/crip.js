@@ -3,7 +3,7 @@ window.onscroll = function() {
 	var elMenu = document.getElementsByClassName('menu')[0];
 	var btnTop = document.getElementsByClassName('back-to-top')[0];
 	//var btnTop = $('.back-to-top')[0];
-	//console.log(btnTop);
+	//console.log(sTop);
 	if(sTop>20){
 		elMenu.classList.add('co-dinh-menu');
 		//btnTop.classList.add('hien-ra');
