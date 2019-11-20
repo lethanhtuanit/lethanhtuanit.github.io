@@ -1,6 +1,6 @@
 .img1 {
 	opacity: 0.6;
-	width: 1500px;
+	z-index: -1;
 }
 .box img {
 	width: 100%;
@@ -50,7 +50,6 @@
 	display: none;
 	/*visibility: hidden;
 	opacity: 0;*/
-	
 }
 .back-to-top.hien-ra{
 	visibility: visible;
@@ -66,9 +65,14 @@
 }
 nav.menu ul{
     display: flex;
-    width: 100%;
+	margin-left: 700px;
 }
 nav.menu ul li {
     padding: 10px 20px;
     list-style: none;
+}
+.menu {
+	position:absolute;
+	width: 100%;
+	top: 5%;
 }

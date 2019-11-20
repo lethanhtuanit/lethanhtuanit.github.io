@@ -6,11 +6,11 @@ window.onscroll = function() {
 	//console.log(btnTop);
 	if(sTop>20){
 		elMenu.classList.add('co-dinh-menu');
-		btnTop.classList.add('hien-ra');
+		//btnTop.classList.add('hien-ra');
 		// $('.back-to-top').fadeIn();
 	} else {
 		elMenu.classList.remove('co-dinh-menu');
-		btnTop.classList.remove('hien-ra');
+		//btnTop.classList.remove('hien-ra');
 		// $('.back-to-top').fadeOut();
 	}
 }

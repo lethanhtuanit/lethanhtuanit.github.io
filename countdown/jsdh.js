@@ -1,4 +1,4 @@
-var date = new Date("JAN 1, 2020 00:00:00").getTime();
+var date = new Date("JAN 25, 2020 00:00:00").getTime();
 var theInterValFunction = setInterval(function(){
 	var theNowDate = new Date().getTime();
 	var theDisDate = date - theNowDate;
