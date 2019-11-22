@@ -14,7 +14,6 @@ window.onscroll = function() {
 		// $('.back-to-top').fadeOut();
 	}
 }
-
 /*
 $(document).ready(function() {
 	$(window).scroll(function(event){
