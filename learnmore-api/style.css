@@ -1,0 +1,14 @@
+ul li{
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+#list{
+	background-color: #ddd;
+	text-align: center;
+	cursor: pointer;
+}
